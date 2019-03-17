@@ -1,0 +1,18 @@
+
+C:\Users\chani\PycharmProjects\Python\BuyMe Project>BuyMe.py
+Traceback (most recent call last):
+  File "C:\Users\chani\PycharmProjects\Python\BuyMe Project\BuyMe.py", line 138, in <module>
+    paymentSave = driverChrome.find_element_by_xpath("//*[@id='ember1192']/div[5]/button).click()")
+  File "C:\Users\chani\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\chani\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\chani\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\chani\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //*[@id='ember1192']/div[5]/button).click() because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id='ember1192']/div[5]/button).click()' is not a valid XPath expression.
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Windows NT 10.0.17134 x86_64)
+
