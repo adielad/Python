@@ -136,7 +136,8 @@ pressSavePhone = driverChrome.find_element_by_xpath("//*//*[@id='ember1273']/div
 time.sleep(2)
 #press payment
 paymentSave = driverChrome.find_element_by_xpath("//*[@id='ember1817']/div[5]/button").click()
-
+print("xxxx")
 time.sleep(3)
 driverChrome.close()
-
+#END
+#kjhkhkhjk
