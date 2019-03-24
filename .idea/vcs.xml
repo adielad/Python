@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/appium" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/appium/Python" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/appium/appium" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/selenium" vcs="Git" />
   </component>
