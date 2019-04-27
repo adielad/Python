@@ -2,6 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DockerRedisPython" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MySoftware" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/appium" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/appium/Python" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/appium/appium" vcs="Git" />
