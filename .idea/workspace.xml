@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38a595f7-620a-4cc2-bed1-eff7dc1a4ab0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySQL/MySQL_EX11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySQL/remote connect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/OOP_Daniel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_Class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DockerRedisPython" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -371,12 +365,12 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="1" width="1292" height="686" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2430279" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2430279" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49920508" visible="true" weight="0.29241878" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49920508" visible="true" weight="0.29241878" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39786857" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
