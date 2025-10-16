@@ -1,0 +1,39 @@
+{% extends "web/base.html" %}
+
+{% block title %}SQL Viewer{% endblock %}
+
+{% block content %}
+  <form method="post">
+    {% csrf_token %}
+    <label for="id_sql">SQL Query</label>
+    {{ form.sql }}
+    <small>{{ form.sql.help_text }}</small>
+    <div style="margin-top: 1rem;">
+      <button type="submit">Run</button>
+    </div>
+  </form>
+
+  {% if columns %}
+    <h3>Results</h3>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            {% for col in columns %}
+              <th>{{ col }}</th>
+            {% endfor %}
+          </tr>
+        </thead>
+        <tbody>
+          {% for row in rows %}
+            <tr>
+              {% for cell in row %}
+                <td>{{ cell }}</td>
+              {% endfor %}
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  {% endif %}
+{% endblock %}

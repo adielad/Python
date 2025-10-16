@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}SQL Viewer{% endblock %}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <style>
+    .container { max-width: 1100px; margin: 2rem auto; }
+    textarea { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    table { white-space: nowrap; }
+    th, td { vertical-align: top; }
+    .table-wrapper { overflow: auto; max-height: 60vh; }
+    .footer { color: #666; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>SQL Server Data Viewer</h1>
+    {% if messages %}
+      <article>
+        {% for message in messages %}
+          <p>{{ message }}</p>
+        {% endfor %}
+      </article>
+    {% endif %}
+    {% block content %}{% endblock %}
+    <p class="footer">Backend: Django + mssql-django. Only read-only queries are allowed.</p>
+  </main>
+</body>
+</html>
